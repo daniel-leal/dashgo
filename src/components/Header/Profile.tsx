@@ -1,6 +1,7 @@
-import { Avatar, Box, Flex, Text } from "@chakra-ui/react";
+import React from 'react'
+import { Avatar, Box, Flex, Text } from '@chakra-ui/react'
 
-export function Profile() {
+export function Profile(): JSX.Element {
   return (
     <Flex align="center">
       <Box mr="4" textAlign="right">
@@ -16,5 +17,5 @@ export function Profile() {
         src="https://github.com/daniel-leal.png"
       />
     </Flex>
-  );
+  )
 }

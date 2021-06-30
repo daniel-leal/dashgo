@@ -1,6 +1,7 @@
-import { Text } from "@chakra-ui/react";
+import React from 'react'
+import { Text } from '@chakra-ui/react'
 
-export function Logo() {
+export function Logo(): JSX.Element {
   return (
     <Text fontSize="3xl" fontWeight="bold" letterSpacing="tight" w="64">
       dashgo
@@ -8,5 +9,5 @@ export function Logo() {
         .
       </Text>
     </Text>
-  );
+  )
 }
