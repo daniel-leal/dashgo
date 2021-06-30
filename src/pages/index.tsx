@@ -1,9 +1,9 @@
-import { Flex, Button, Stack } from "@chakra-ui/react"
-import { Input } from "../components/Form/Input"
+import { Flex, Button, Stack } from '@chakra-ui/react'
+import { Input } from '../components/Form/Input'
 
-export default function SignIn() {
+export default function SignIn(): JSX.Element {
   return (
-    <Flex w="100vh" h="100vh" align="center" justify="center">
+    <Flex w="100vw" h="100vh" align="center" justify="center">
       <Flex
         as="form"
         w="100%"
