@@ -1,3 +1,4 @@
+import React from 'react'
 import { Flex, SimpleGrid, Box, Text, theme } from '@chakra-ui/react'
 import { ApexOptions } from 'apexcharts'
 import dynamic from 'next/dynamic'
