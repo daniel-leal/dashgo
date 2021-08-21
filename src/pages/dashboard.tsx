@@ -24,12 +24,12 @@ const options: ApexOptions = {
     axisBorder: { color: theme.colors.gray['600'] },
     axisTicks: { color: theme.colors.gray['600'] },
     categories: [
-      '2021-04-02T00:00:00:00.000Z',
-      '2021-04-03T00:00:00:00.000Z',
-      '2021-04-04T00:00:00:00.000Z',
-      '2021-04-05T00:00:00:00.000Z',
-      '2021-04-06T00:00:00:00.000Z',
-      '2021-04-07T00:00:00:00.000Z'
+      '2021-04-02T00:00:00',
+      '2021-04-03T00:00:00',
+      '2021-04-04T00:00:00',
+      '2021-04-05T00:00:00',
+      '2021-04-06T00:00:00',
+      '2021-04-07T00:00:00'
     ]
   },
   fill: {
@@ -53,7 +53,7 @@ export default function Dashboard(): JSX.Element {
         <Sidebar />
 
         <SimpleGrid flex="1" gap="4" minChildWidth="320px" align="flex-start">
-          <Box p="8" bg="gray.800" borderRadius={8} pb="4">
+          <Box p={['6', '8']} bg="gray.800" borderRadius={8} pb="4">
             <Text fontSize="lg" mb="4">
               Inscritos da semana
             </Text>
